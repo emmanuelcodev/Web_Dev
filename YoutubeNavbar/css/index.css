@@ -1,0 +1,99 @@
+/* font-size of all page */
+
+.root{
+    font-size: 1em;
+}
+
+
+/* Cause each segnment within menu header to be displayed inline */
+.menu_seg{
+
+    display: inline;
+    margin-top: 2em;
+    margin-left: 1em;
+    
+}
+
+/* horizontally space the search boxes */
+
+.seg_middle, .seg_left{
+    margin-right: calc(13vw);
+}
+
+/* Space font-awesome 5 Icons */
+.menu_seg span{
+    padding-top: .2em;
+    padding-left: .4em;
+    padding-right: .4em;
+    margin-top: .2em;
+    font-size: 1.1rem;
+}
+
+/*Create input box for search term */
+/*resize icons according to youtube page */
+
+/*Decorate left parts of menu */
+span.bars{
+    color:#2d3515;
+}
+
+span.play_button{
+    font-size: 1rem;
+    background-color: red;
+    border-radius: .4em;
+    color: white;
+    padding-bottom: .2em;
+    margin-top: -.2em;
+  
+}
+span.account_type{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 0em;
+    
+}
+
+
+/*decorate middle parts of menu */
+.search_box{
+    width: 36vw;
+    height: 1.3rem;
+
+}
+
+
+.menu_seg span.search_mglass {
+    font-size: .9rem;
+    margin-left: -.3em;
+    padding-left: 1.5em;
+    width: 2em;
+    
+
+}
+
+span.search_style, input.search_style{
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    height: 1.1rem;
+
+}
+
+span.microphone{
+    font-size: 1.4rem;
+    
+}
+
+
+
+/* Decorate right parts of menu */
+.seg_right span{
+    padding-left: .6em;
+    padding-right: .6em;
+    font-size: 1.1em;
+}
+
+span.user {
+    font-size: 1.8rem;
+}
+
