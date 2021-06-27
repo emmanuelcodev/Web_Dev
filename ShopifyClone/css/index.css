@@ -1,25 +1,43 @@
 
-
 .root{
     font-size: 1em;
+    box-sizing: border-box;
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+
+body{
+
+    background-color: #2980b9;
 }
 
 ul.navbar_ul li{
     list-style: none;
     display: inline-block;
-    margin-left: .5em;
-    margin-right: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
+
+
 ul.nav_p1{
+    
     width: 60%;
+    float: left;
 }
 
 ul.nav_p2{
-    width: 40%;
+    width: 30%;
+    float: left;
+    height: 50px;
 }
 
 img{
     width: 100px;
-    height: 50px;
+    
+    
 }
