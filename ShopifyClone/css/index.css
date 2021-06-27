@@ -1,5 +1,5 @@
 
-.root{
+:root{
     font-size: 1em;
     box-sizing: border-box;
 }
@@ -28,16 +28,27 @@ ul.nav_p1{
     
     width: 60%;
     float: left;
+
 }
 
 ul.nav_p2{
-    width: 30%;
+    width: 40%;
     float: left;
     height: 50px;
+
 }
 
 img{
     width: 100px;
     
     
+}
+
+nav.nav_encloser{
+
+    width: 100%;
+}
+
+div.clear{
+    clear: both;
 }
