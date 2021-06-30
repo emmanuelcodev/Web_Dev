@@ -1,0 +1,39 @@
+:root {
+    box-sizing: border-box;
+  }
+
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit;
+  }
+
+
+div.ul {
+    display: table;
+    width: 100%;
+    
+}
+
+.ul1{
+    display: table-cell;
+    width: 70%;
+    
+    background-color: green;
+    float: left;
+
+    
+}
+
+.ul2{
+    display: table-cell;
+    width: 30%;
+    background-color: indigo;
+    float: left;
+    padding: 1.5em;
+    margin-left: 1.5em;
+}
+
+.ul1 li, .ul2 li{
+    display: table-cell;
+}
