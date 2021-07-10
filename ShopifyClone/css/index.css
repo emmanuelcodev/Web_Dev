@@ -11,6 +11,14 @@ body{
 
     background-color: rgba(245, 151, 148, .1);
 }
+ul{
+    overflow: auto;
+}
+ul li {
+    color: #333538;
+    font-weight: 1100;
+    
+}
 
 ul.navbar_ul li{
     font-size: 1.2rem;
@@ -26,6 +34,8 @@ ul.nav_p0{
     display: table-cell;
     width: 20%;
     float: left;
+    padding-left: 8em;
+    
 
     
 
@@ -35,6 +45,8 @@ ul.nav_p1{
     width: 40%;
     float: left;
     margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 
 }
 
@@ -43,11 +55,15 @@ ul.nav_p2{
     width: 40%;
     float: left;
     margin-top: 1em;
-    
+    padding-top: 1em;
+    padding-bottom: 1em;
 
 }
 
-
+img.logo{
+    display: inline;
+   
+}
 
 
 ul.nav_p0 img{
@@ -63,16 +79,8 @@ margin-left: -1.5em;
 margin-right: -1.5em;
 }
 
+    
 
-button{
-    background-color: green;
-    color: white;
-    height: 50px;
-    width: 140px;
-    border-radius: .5em;
-    font-weight: bold;
-    font-size: 1.1rem;
-}
 
 nav.nav_encloser{
     display: table;
@@ -83,3 +91,22 @@ nav.nav_encloser{
 div.clear{
     clear: both;
 }
+
+
+button.trial_button{
+    padding-top: .7em;
+    padding-bottom: .7em;
+    padding-right: .7em;
+    padding-left: .7em;
+    border-radius: 5px;
+    line-height: 1.13;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    background-color: #008060;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
