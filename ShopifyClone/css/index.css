@@ -126,14 +126,14 @@ main.main_entry{
 div.start_free_trial{
     display: table-cell;
     vertical-align: middle;
-    width: 60%;
+    width: 50%;
  
     
 }
 
 div.picture{
     display: table-cell;
-    width: 40%;
+    width: 50%;
     
    
 }
@@ -141,10 +141,60 @@ div.picture{
 
 /* Listening */
 p.main_text{
-    text-align: center;
+
+    font-weight: 800;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.028125em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    color: #004c3f;
 }
 
 form.small_form{
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
+input.email_input_text{
+    width: 60%;
+    font-size: 1.1rem;
+    
+    margin-right: 1em;
+    padding: .5em;
+}
+
+input.email_input_button{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+    padding: .5em;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    padding-right: .7em;
+    padding-left: .7em;
+    border-radius: 5px;
+    line-height: 1.13;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    background-color: #008060;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+    
+
+
+p.email_subtext{
+    font-size: .8rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
