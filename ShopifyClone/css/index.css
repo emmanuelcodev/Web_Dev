@@ -110,3 +110,41 @@ button.trial_button{
     border-color: transparent;
 }
 
+div.clear2 {
+    padding-top: 1px;
+}
+
+/* deal with main body content */
+
+/* make to table style display */
+main.main_entry{
+    display: table;
+    width: 100%;
+}
+
+/* display as table cells to control width */
+div.start_free_trial{
+    display: table-cell;
+    vertical-align: middle;
+    width: 60%;
+ 
+    
+}
+
+div.picture{
+    display: table-cell;
+    width: 40%;
+    
+   
+}
+
+
+/* Listening */
+p.main_text{
+    text-align: center;
+}
+
+form.small_form{
+    margin-left: auto;
+    margin-right: auto;
+}
